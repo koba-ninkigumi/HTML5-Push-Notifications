@@ -34,7 +34,7 @@ function subscribeDevice() {
 }
 
 function serviceWorkerRegistration(){
-  navigator.serviceWorker.register('/sw.js').then(function(sw){
+  navigator.serviceWorker.register('/HTML5-Push-Notifications/sw.js').then(function(sw){
     subscribeDevice();
   });
 }
